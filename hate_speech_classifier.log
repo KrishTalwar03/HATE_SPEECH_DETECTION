@@ -1,0 +1,15 @@
+2025-08-26 14:59:29,154 - INFO - Starting model training...
+2025-08-26 15:00:22,097 - INFO - Best Parameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}
+2025-08-26 15:00:22,124 - INFO - 
+Classification Report:
+                               precision    recall  f1-score   support
+
+                  Hate Speech       0.35      0.16      0.22       286
+No Hate or Offensive Language       0.73      0.96      0.83       833
+           Offensive Language       0.94      0.92      0.93      3838
+
+                     accuracy                           0.88      4957
+                    macro avg       0.68      0.68      0.66      4957
+                 weighted avg       0.87      0.88      0.87      4957
+
+2025-08-26 15:00:22,127 - INFO - Accuracy Score: 0.8802
